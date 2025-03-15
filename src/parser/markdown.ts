@@ -10,6 +10,7 @@ import { Renderer } from './parser.js';
 
 const mdit = new MarkdownIt({
     html: true,
+    breaks: true,
     highlight: highlight,
     linkify: true,
 });
